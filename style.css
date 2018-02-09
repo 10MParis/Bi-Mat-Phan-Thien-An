@@ -1,0 +1,290 @@
+/* Base
+----------------------------------------------------------------------------------------------------*/
+* { 
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0}
+
+html{ height:100%;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit; 
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline; }
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0; }
+
+.clearfix{display: inline-block;}
+ 
+html[xmlns] .clearfix {	display: block;}
+ 
+* html .clearfix {height: 1%; }
+
+img
+{ max-width:100%; 
+  height:auto;
+  border:none;}
+
+a{ transition:color .0s ease-in; 
+  -moz-transition:color .0s ease-in; 
+  -webkit-transition:color .0s ease-in;
+  text-decoration:none;
+  color:#f12fb3; }
+  
+a:hover{ 
+  text-decoration:none;
+  color:#000;}
+
+body{ 
+  width:100%; 
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+  background-color:#FFFFFF}
+ 
+input[type="text"], textarea, select, button, input[type="submit"], input[type="button"]
+{ -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+/************reset css******************/
+
+header,footer{ display:block;}
+
+#page{ width:100%}
+
+p{ 
+  font-size:13px; 
+  font-weight:600}
+  
+h1{ 
+  color:#FFFFFF; 
+  font-size:73px; 
+  font-weight:300;}
+  
+h2{ 
+  font-size:34px; 
+  font-weight:700;}
+  
+h3{ 
+  font-size:16px; 
+  font-weight:700; 
+  color:#000}
+  
+h4{ 
+  font-size:13px;
+   color:#7d7c7c;
+   font-weight:700;}
+
+.row{ 
+  max-width:1000px; 
+  margin:0px auto; 
+  padding:0 20px;}
+  
+header{ padding:10px 0;}
+  
+.logo{ 
+  float:left; 
+  color:#898989; 
+  font-size:22px; 
+  text-transform:uppercase; 
+  font-weight:700; 
+  padding:16px 0;}
+  
+.logo span{display:inline-block}
+
+.textblue{color:#009ee7}
+
+.head-right{
+  float:right; 
+  padding:10px 0;}
+
+.head-right span{ 
+  color:#9b9b9b; 
+  font-size:14px; 
+  font-weight:700; 
+  display:inline-block; 
+  padding-right:36px; 
+  padding-top:7px;}
+  
+.download-button{ 
+  color:#FFFFFF; 
+  background-color:#53c335; 
+  border-radius:18px;
+  -webkit-border-radius:18px;
+  -moz-border-radius:18px;
+  font-size:13px; 
+  font-weight:700;
+  padding:13px 20px;
+  display:inline-block;}
+  
+.download-button:hover{ 
+  background-color:#009ee7;
+  color:#fff;}
+
+.banner{ 
+  background:#000 url(images/banner-bg.jpg) no-repeat; 
+  padding:65px 0;}
+  
+.banner-left{ 
+  float:left; 
+  width:46%; 
+  margin-right:4%}
+  
+.ver-middle{ 
+  display:table; 
+  height:480px;}
+
+.ver-middle-in{ 
+  display:table-cell; 
+  vertical-align:middle;}
+
+.banner-right{ 
+  float:right; 
+  width:50%;}
+  
+.limited{ 
+  color:#FFFFFF; 
+  font-size:16px; 
+  padding-top:13px;}
+  
+.banner-left p{ 
+  color:#c9c9c9; 
+  line-height:21px;  
+  padding-top:15px;}
+  
+.download-now{ 
+  float:left; 
+  margin-top:25px;
+  margin-right:20px;}
+  
+.download-now a{
+  background-color:#53c335;
+  padding:20px 30px;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  color:#FFFFFF; 
+  font-size:26px; 
+  font-weight:600;
+  display:block;}
+  
+.download-now a:hover{ background-color:#009ee7;}
+
+.download-now img{
+  vertical-align:top; 
+  padding-right:20px;}
+
+.appstore{ 
+  float:left;
+  margin-top:25px;}
+   
+.wrapper{ 
+  padding:30px 0;
+  background:#fff;}   
+   
+.common{ margin-left:-3%;}
+
+.one-third{
+  float:left; 
+  width:30.3%; 
+  margin-left:3%; 
+  margin-top:20px; 
+  margin-bottom:20px;
+  text-align:center;}
+  
+.one-third h3{ 
+  padding-top:30px; }
+
+.one-third p{ 
+  padding-top:15px; 
+  color:#878686; 
+  font-weight:600; 
+  line-height:19px;}
+  
+.pre-footer{ 
+  background-color:#e0e0e0; 
+  padding:32px 0;}
+  
+.pre-footer h4{ 
+  padding-bottom:15px; 
+  text-align:center;}
+
+.pre-footer p{ 
+  font-size:13px; 
+  color:#888888;
+  text-align:center;
+  line-height:20px;}
+  
+footer{ 
+  text-align:center; 
+  font-size:13px; 
+  font-weight:600; 
+  color:#878686; 
+  padding:25px 0;
+  background:#fff;}
+  
+@media screen and (min-width:860px) and (max-width:960px)
+{
+    .head-right span{ padding-right:20px;}
+	h1{ font-size:55px;}
+	h2{ font-size:30px;}
+}
+  
+@media only screen and  (max-width:860px)
+{
+  h1{ font-size:59px;}
+  h2{ font-size:28px;}
+  .limited{ font-size:13px;}  
+  .logo{ float:none}
+  .head-right{ float:none}
+   header{ text-align:center}
+  .banner-left{ float:none; width:100%; margin-bottom:35px;}
+  .banner-right{ float:none; width:100%;}
+  .download-now a{ display:inline-block}
+  .ver-middle, .ver-middle-in{ height:auto; display:inherit;}
+}
+
+@media only screen and (max-width:680px)
+{
+ .one-third{ float:none; width:100%;}
+ .head-right span{ display:block; padding-bottom:15px;}
+}  
+
+@media only screen and (max-width:480px)
+{
+   h1{ font-size:50px;}
+   .appstore{ float:none;}
+   .download-now{ float:none; margin-right:0;}
+}
+
+@media only screen and (max-width:380px)
+{
+   h1{ font-size:45px;}
+   .download-now a{ font-size:20px; padding:18px;}
+   h2{ font-size:25px;}
+}
